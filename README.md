@@ -3,6 +3,12 @@
 Este repositório contém uma coleção de scripts `.bat` (Windows) e shell scripts (Linux/macOS) que criei para facilitar tarefas recorrentes no meu fluxo de trabalho diário.
 
 ## 📂 Estrutura do Repositório
+/
+├── scripts/
+│ ├── nome-do-script1.bat
+│ ├── nome-do-script2.bat
+│ └── ...
+├── README.md
 
 
 ## ⚙️ Funcionalidades
