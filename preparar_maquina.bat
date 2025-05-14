@@ -14,7 +14,7 @@ echo Senha para o Administrador local definida com sucesso.
 
 echo =================================================
 echo 2. Definindo o Proxy (ex: 192.168.0.1:8080)...
-set proxy=172.16.0.2:3128
+set proxy=ip_proxy:porta_proxy
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 1 /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyServer /t REG_SZ /d %proxy% /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v AutoDetect /t REG_DWORD /d 0 /f
